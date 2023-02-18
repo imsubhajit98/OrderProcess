@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shoping Cart Payment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="p-3 text-bg-dark" id="header">
+        <div class="container-flow" id="one">
+            <div class="d-flex flex-wrap align-items-center justify-content-between">
+                <a class="navbar-brand nav-logo"> <h3>Apna Dhaba</h3></a>
+                <div class="text-end ms-auto nav-buttons">
+                    <p class="navText"><span class="span">Home</span><span class="span">Cart</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Burger munu will display here -->
+    <div id="menu">
+        <h1 style="text-align:center;margin-top: 5rem;">Menu Card</h1><br>
+        <div class="d-flex flex-row flex-wrap gap-5 divv" id="burgerList">
+            
+        </div>
+    </div>
+    <hr>
+
+    <!-- Ordered items will display here -->
+    <div class="d-flex flex-column flex-wrap gap-5 align-items-center">
+        <h3>You have ordered following burgers</h3>
+        <ol id="orederedBurgerList">
+
+        </ol>
+    </div>
+    <hr>
+
+    <!-- Order recieved msg -->
+    <div class="d-flex flex-row flex-wrap gap-5 divv">
+        <h4 id="order_Recieved_Msg"></h4>
+    </div>
+    <hr>
+
+    <!-- Payment status -->
+    <div class="d-flex flex-row flex-wrap gap-5 divv" id="payment_Status_Msg">
+        
+    </div>
+    <hr>
+
+    <!-- Thnks Msg -->
+    <div id="thnks_Msg">
+      
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
